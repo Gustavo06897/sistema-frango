@@ -1,0 +1,115 @@
+/* Estilos para a página de pedidos */
+.pedidos-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Barra Superior */
+  .barra-superior {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .botao-sair {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: none;
+    color: black;
+    width: 100px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+.pesquisa{
+    display: flex;
+  justify-content: center; 
+}
+
+  .campo-pesquisa {
+    width: 270px;
+    height: 40px;
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 24px;
+  }
+  
+  .logotipo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Categorias */
+  .categorias {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .categoria {
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: none;
+    color:black;
+    cursor: pointer;
+  }
+  
+  .categoria.ativa {
+    background: black;
+    color: white;
+  }
+  
+  /* Lista de itens */
+  .lista-itens {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .item-label {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    cursor: pointer;
+  }
+  
+  .preco {
+    font-weight: bold;
+  }
+  
+  /* Rodapé */
+  .rodape {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .botao-configuracoes,
+  .botao-carrinho {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
